@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/deckstack",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Deck structured JSON stack payloads without a heavyweight toolkit.",
+  "bin": {
+    "deckstack": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/deckstack.git"
+  },
+  "homepage": "https://theworker02.github.io/deckstack/",
+  "keywords": [
+    "deck",
+    "stack",
+    "json",
+    "cli",
+    "toolkit"
+  ]
+}
